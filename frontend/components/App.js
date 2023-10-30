@@ -1,12 +1,10 @@
 import React from 'react'
-
+import Page from "./page"
 function App() {
-  return (
-    <p>
-      Read through the instructions in the README.md file to build your NASA
-      app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-    </p>
-  )
+  return (<div>   
+  <Page />
+  </div>
+   );
 }
 
 export default App
